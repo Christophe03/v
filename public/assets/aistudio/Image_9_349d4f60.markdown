@@ -1,0 +1,183 @@
+---
+name: Warm Food Marketplace
+colors:
+  surface: '#f8f9fa'
+  surface-dim: '#d9dadb'
+  surface-bright: '#f8f9fa'
+  surface-container-lowest: '#ffffff'
+  surface-container-low: '#f3f4f5'
+  surface-container: '#edeeef'
+  surface-container-high: '#e7e8e9'
+  surface-container-highest: '#e1e3e4'
+  on-surface: '#191c1d'
+  on-surface-variant: '#40493d'
+  inverse-surface: '#2e3132'
+  inverse-on-surface: '#f0f1f2'
+  outline: '#707a6c'
+  outline-variant: '#bfcaba'
+  surface-tint: '#1b6d24'
+  primary: '#0d631b'
+  on-primary: '#ffffff'
+  primary-container: '#2e7d32'
+  on-primary-container: '#cbffc2'
+  inverse-primary: '#88d982'
+  secondary: '#835400'
+  on-secondary: '#ffffff'
+  secondary-container: '#fcab28'
+  on-secondary-container: '#694300'
+  tertiary: '#ac0c18'
+  on-tertiary: '#ffffff'
+  tertiary-container: '#d02d2d'
+  on-tertiary-container: '#ffedeb'
+  error: '#ba1a1a'
+  on-error: '#ffffff'
+  error-container: '#ffdad6'
+  on-error-container: '#93000a'
+  primary-fixed: '#a3f69c'
+  primary-fixed-dim: '#88d982'
+  on-primary-fixed: '#002204'
+  on-primary-fixed-variant: '#005312'
+  secondary-fixed: '#ffddb5'
+  secondary-fixed-dim: '#ffb957'
+  on-secondary-fixed: '#2a1800'
+  on-secondary-fixed-variant: '#643f00'
+  tertiary-fixed: '#ffdad6'
+  tertiary-fixed-dim: '#ffb3ac'
+  on-tertiary-fixed: '#410003'
+  on-tertiary-fixed-variant: '#930010'
+  background: '#f8f9fa'
+  on-background: '#191c1d'
+  surface-variant: '#e1e3e4'
+typography:
+  headline-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 36px
+    fontWeight: '700'
+    lineHeight: 44px
+    letterSpacing: -0.02em
+  headline-lg-mobile:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 28px
+    fontWeight: '700'
+    lineHeight: 36px
+    letterSpacing: -0.01em
+  headline-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 28px
+    fontWeight: '600'
+    lineHeight: 34px
+    letterSpacing: -0.01em
+  headline-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 20px
+    fontWeight: '600'
+    lineHeight: 28px
+  body-lg:
+    fontFamily: Inter
+    fontSize: 18px
+    fontWeight: '400'
+    lineHeight: 28px
+  body-md:
+    fontFamily: Inter
+    fontSize: 16px
+    fontWeight: '400'
+    lineHeight: 24px
+  body-sm:
+    fontFamily: Inter
+    fontSize: 14px
+    fontWeight: '400'
+    lineHeight: 20px
+  label-lg:
+    fontFamily: Inter
+    fontSize: 16px
+    fontWeight: '500'
+    lineHeight: 24px
+  label-md:
+    fontFamily: Inter
+    fontSize: 14px
+    fontWeight: '500'
+    lineHeight: 20px
+  label-sm:
+    fontFamily: Inter
+    fontSize: 12px
+    fontWeight: '500'
+    lineHeight: 16px
+rounded:
+  sm: 0.25rem
+  DEFAULT: 0.5rem
+  md: 0.75rem
+  lg: 1rem
+  xl: 1.5rem
+  full: 9999px
+spacing:
+  gutter: 1.5rem
+  margin: 2rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2.5rem
+---
+
+## Brand & Style
+
+This design system establishes a warm, vibrant, and dynamic visual language tailored for an artisanal food and local produce marketplace. The aesthetic balances contemporary cleanliness with earthy, appetizing energy.
+
+### Brand Personality
+- **Warm & Inviting:** Cultivates a welcoming atmosphere that mirrors a local farmer's market.
+- **Dynamic & Fresh:** Celebrates the vitality of natural, high-quality ingredients through lively color accents.
+- **Trustworthy & Grounded:** Professional structure ensures clear navigation and reliable e-commerce functionality.
+
+### Design Style
+A blend of **Modern Minimalism** and **Tactile Warmth**. Clean layouts, generous whitespace, and high-legibility typography provide a contemporary digital storefront, while rich natural colors and organic forms deliver sensory appeal.
+
+## Colors
+
+The color palette captures the essence of fresh produce: lush greens, sun-ripened yellows, and rich harvest reds, anchored by clean, crisp neutrals to let product photography shine.
+
+- **Primary (Fresh Green):** Conveys organic quality, sustainability, and natural health.
+- **Secondary (Harvest Yellow):** Evokes warmth, sunshine, and agricultural abundance.
+- **Tertiary (Ripe Red):** Draws the eye to key actions, promotional badges, and category highlights.
+- **Neutrals:** Soft off-whites and charcoal grays provide a high-contrast, readable backdrop for vibrant food imagery.
+
+## Typography
+
+Typography pairs a warm, approachable geometric sans-serif for headings with a highly legible, neutral sans-serif for interface text and product details.
+
+- **Headlines:** Set in geometric weights to create friendly, modern emphasis.
+- **Body:** Clean sans-serif optimized for scanning ingredient lists, origin stories, and pricing.
+- **Scale:** Fluid scaling ensures large promotional headers adapt gracefully to mobile viewports without sacrificing impact.
+
+## Layout & Spacing
+
+A **fluid grid system** is employed to ensure product listings and editorial content adapt seamlessly from mobile devices to widescreen desktop displays.
+
+- **Grid Structure:** 12-column fluid grid on desktop, scaling down to 4 columns on mobile.
+- **Rhythm:** Generous margins and consistent component spacing provide a breathable, unhurried browsing experience that emphasizes the artisanal nature of the goods.
+- **Breakpoints:** Mobile (< 768px), Tablet (768px - 1024px), Desktop (> 1024px).
+
+## Elevation & Depth
+
+Depth is conveyed through **tonal layers and ambient shadows** rather than harsh outlines, creating a soft, tactile interface that feels approachable.
+
+- **Surface Tiers:** Backgrounds use off-white surfaces layered over crisp white cards to group related product details.
+- **Shadow Character:** Low-opacity, diffused shadows tinted with subtle green undertones give interactive elements (like product cards and sticky add-to-cart bars) a gentle lift off the page.
+
+## Shapes
+
+A **rounded** shape language (`roundedness: 2`, 0.5rem base radius, up to 1.5rem for large containers) softens the UI, banishing sharp corners to reinforce a friendly, organic, and accessible brand feel. 
+
+- **Buttons & Chips:** Fully pill-shaped or generously rounded to invite touch interaction.
+- **Cards & Containers:** Softly rounded corners frame photography and pricing clearly without feeling corporate or rigid.
+
+## Components
+
+Consistent styling guidelines for core e-commerce elements:
+
+- **Buttons:** Primary actions utilize solid brand green with high-contrast text and generous padding. Secondary actions use subtle ghost or tonal fills. Destructive or urgent promotional actions leverage harvest red.
+- **Chips & Tags:** Pill-shaped metadata indicators used for dietary preferences (e.g., *Bio*, *Local*, *Sans Gluten*), utilizing soft pastel variants of the primary and secondary colors.
+- **Lists:** Clean vertical spacing with generous touch targets for cart items, filter menus, and navigation links.
+- **Checkboxes & Radio Filters:** Custom-styled with primary green accents for selecting delivery slots, quantities, or filter facets.
+- **Input Fields:** Generously padded text fields with clear focus states for search bars, checkout forms, and quantity selectors.
+- **Cards:** Elevated product cards featuring edge-to-edge imagery, clear typography hierarchy for pricing, quick "Add to Cart" triggers, and subtle hover lifts.
+- **Additional Components:** Includes quantity steppers, sticky mobile checkout bars, category carousels with snap-scroll, and trust badges for local sourcing.

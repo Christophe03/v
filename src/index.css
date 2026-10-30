@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-heading: 'Plus Jakarta Sans', sans-serif;
+    --font-body: 'Inter', sans-serif;
+    --color-primary: #0d631b;
+    --color-primary-container: #2e7d32;
+    --color-on-primary-container: #cbffc2;
+    --color-secondary: #835400;
+    --color-secondary-container: #fcab28;
+    --color-tertiary: #ac0c18;
+    --color-surface: #f8f9fa;
+    --color-surface-container: #edeeef;
+    --color-surface-container-low: #f3f4f5;
+    --color-surface-container-high: #e7e8e9;
+    --color-surface-container-highest: #e1e3e4;
+    --color-surface-container-lowest: #ffffff;
+    --color-on-surface: #191c1d;
+    --color-on-surface-variant: #40493d;
+    --color-outline: #707a6c;
+    --color-outline-variant: #bfcaba;
+  }
+
+  body {
+    font-family: var(--font-body);
+    background-color: var(--color-surface);
+    color: var(--color-on-surface);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+  }
+}
+
+/* Custom scrollbar and tactile utility classes */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f3f4f5;
+}
+::-webkit-scrollbar-thumb {
+  background: #bfcaba;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #707a6c;
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
